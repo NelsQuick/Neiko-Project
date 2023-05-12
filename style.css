@@ -82,6 +82,12 @@ a:hover {
     justify-content:space-between;
 }
 
+.twoblocks a:hover {
+    -ms-transform: scale(1.01);
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
 .twotexts {
     width: 52rem;
     margin: 3rem auto;
