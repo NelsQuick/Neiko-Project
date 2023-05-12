@@ -101,3 +101,36 @@ a:hover {
     text-decoration: none;
     color: black;
 }
+
+.selection {
+    font-family:'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    margin: 2rem 10rem;
+}
+
+.selection h2 {
+    margin-bottom: 0;
+}
+
+.selection p {
+    margin-top: 0;
+}
+
+.pic-selection {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10rem;
+}
+
+.pic-selection a {
+    text-decoration: none;
+    font-family: 'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    margin-bottom: 2rem;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
