@@ -70,3 +70,28 @@ a:hover {
     font-weight: bold;
     color: #374197;
 }
+
+.banner {
+    width: 100%;
+}
+
+.twoblocks {
+    width: 75rem;
+    margin: 3rem auto;
+    display: flex;
+    justify-content:space-between;
+}
+
+.twotexts {
+    width: 52rem;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.twotexts a {
+    font-family:'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+}
