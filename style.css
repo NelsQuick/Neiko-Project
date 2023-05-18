@@ -58,6 +58,7 @@ nav {
     justify-content: center;
     padding: 2rem;
 }
+
 nav a{
     font-family:'Poppins','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: small;
@@ -133,4 +134,94 @@ a:hover {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin-top: 2rem;
+}
+
+form {
+    text-align: center;
+}
+
+form p {
+    margin-top: 2rem;
+    color: #4F4F4F;
+}
+
+input {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 20rem;
+    box-shadow: 1px 1px 3px #4F4F4F;
+}
+
+footer {
+    margin-top: 5rem;
+    background-color: #374197;
+    height: 5rem;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 1.9rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+
+
+
+/* CUSTOM */
+
+.customization {
+    display: flex;
+    justify-content: space-between;
+    margin:0  10rem;
+}
+
+.option-group {
+    margin-bottom: 30px;
+}
+
+.options img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.preview {
+    flex-basis: 40%;
+}
+
+.watch-preview {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.watch-preview img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
 }

@@ -1,90 +1,100 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Neiko Project</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
-  </head>
-  <body>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" type="image/png" href="/images/neiko.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+</head>
+
+<body>
     <div class="preheader">
       <span>Laisses cours à ton imagination en créant ta montre de toutes pièces !
-      Livraison oferte pour les commandes de plus de 100€ !</span>
+        Livraison oferte pour les commandes de plus de 100€ !</span>
     </div>
 
     <header>
-        <div class="imgs">
-            <a href=""><img class="search" src="search.png" alt=""></a>
-            <a href=""><img class="logo" src="headerlogo.png" alt=""></a>
-            <a href=""><img class="cart" src="shopping-cart.png" alt=""></a>
-        </div>
-        <nav>
-            <a href="">Nos pièces</a>
-            <a href="">Ta montre personnalisée</a>
-            <a href="">A propos de nous</a>
-            <a href="">Nous contacter</a>
-        </nav>
+      <div class="imgs">
+        <a href=""><img class="search" src="images/search.png" alt=""></a>
+        <a href="index.html"><img class="logo" src="images/headerlogo.png" alt=""></a>
+        <a href=""><img class="cart" src="images/shopping-cart.png" alt=""></a>
+      </div>
+      <nav>
+        <a href="">Nos pièces</a>
+        <a href="custom.html">Ta montre personnalisée</a>
+        <a href="">A propos de nous</a>
+        <a href="">Nous contacter</a>
+      </nav>
     </header>
-    
-    <main>
-        <div>
-            <img class="banner" src="banner.png" alt="">
-        </div>
-        
-        <div class="twoblocks">
-            <a href=""><img class="pièces" src="pièces.png" alt="pièces"></a>
-            <a href=""><img class="sur-mesure" src="sur-mesure.png" alt="sur-mesure"></a>
-        </div>
-        <div class="twotexts">
-            <a href="">Voir toutes nos pièces</a>
-            <a href="">Configure ta montre</a>
-        </div>
-        <hr>
-        <div class="selection">
-          <h2>Notre sélection !</h2>
-          <p>Retrouves ici notre sélection de pièces !</p>
-        </div>
 
-        <div class="pic-selection">
-          <div class="one">
-          <a href=""><img src="unvailable-pic.png" alt=""></a>
-          <a href=""><span>Bracelet</a></span>
+    <main>
+      <div>
+        <img class="banner" src="images/banner.png" alt="">
+      </div>
+
+      <div class="twoblocks">
+        <a href=""><img class="pièces" src="images/pièces.png" alt="pièces"></a>
+        <a href="custom.html"><img class="sur-mesure" src="images/sur-mesure.png" alt="sur-mesure"></a>
+      </div>
+      <div class="twotexts">
+        <a href="">Voir toutes nos pièces</a>
+        <a href="">Configure ta montre</a>
+      </div>
+      <hr>
+      <div class="selection">
+        <h2>Notre sélection !</h2>
+        <p>Retrouves ici notre sélection de pièces !</p>
+      </div>
+
+      <div class="pic-selection">
+        <div class="one">
+          <a href=""><img src="images/unvailable-pic.png" alt=""></a>
+          <a href=""><span>Bracelets</a></span>
         </div>
 
         <div class="two">
-          <a href=""><img src="unvailable-pic.png" alt=""></a>
-          <a href=""><span>Moniteur de bureau</a></span>
+          <a href=""><img src="images/unvailable-pic.png" alt=""></a>
+          <a href=""><span>Cadrans</a></span>
         </div>
-        
+
         <div class="three">
-          <a href=""><img src="unvailable-pic.png" alt=""></a>
-          <a href=""><span> jvc zjfoj</a></span>
+          <a href=""><img src="images/unvailable-pic.png" alt=""></a>
+          <a href=""><span>Boitiers</a></span>
         </div>
 
         <div class="four">
-          <a href=""><img src="unvailable-pic.png" alt=""></a>
-          <a href=""><span>moiuvement nh35</a></span>
+          <a href=""><img src="images/unvailable-pic.png" alt=""></a>
+          <a href=""><span>Aiguilles</a></span>
         </div>
-        
-        </div>
+      </div>
     </main>
 
+    <form action="POST">
+      <h1>Abonnes-toi à notre newletter !</h1>
+      <p>On adore envoyer des mots d'amour ! Ou juste t'informer des <strong>nouveautés</strong></p>
+      <input type="email" name="email" id="email" placeholder="E-mail" autocomplete="email" required>
+    </form>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  </body>
+    <footer>
+      <p>© 2023,
+        <a href="">Neiko Project</a> ·
+        <a href="">Politique de rembouresement</a> ·
+        <a href="">Politique de confidentialité</a> · 
+        <a href="">Conditions d'utilisation</a> ·
+        <a href="">Politique d'expédition</a> ·
+        <a href="">Coordonnées</a> ·
+        <a href="">Conditions générales de vente</a> ·
+        <a href="">Mentions légales</a>
+      
+      
+      
+      
+      </p>
+    </footer>
+</body>
 </html>
